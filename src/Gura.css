@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.timeline-section {
+  background-color: #24292d;
+  min-height: 100vh;
+  padding: 100px 15px;
+}
+
+.timeline-items {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.timeline-items::before {
+  content: '';
+  position: fixed;
+  left: 90.6%;
+  width: 2px;
+  height: 60%;
+  background-color: #ffffff;
+}
+
+.timeline-item {
+  margin-bottom: 7em;
+  width: 100%;
+  position: relative;
+}
+
+.timeline-dot {
+  height: 16px;
+  width: 16px;
+  background: #eaa023;
+  position: absolute;
+  left: calc(90%);
+  border-radius: 50%;
+}
+
+.timeline-dot:nth-child(2) {
+  top: calc(15%);
+  position: fixed;
+}
+
+.timeline-dot:nth-child(3) {
+  top: calc(30%);
+  position: fixed;
+}
+
+.timeline-dot:nth-child(4) {
+  top: calc(45%);
+  position: fixed;
+}
+
+.timeline-dot:nth-child(5) {
+  top: calc(60%);
+  position: fixed;
+}
+
+.timeline-dot:nth-child(6) {
+  top: calc(75%);
+  position: fixed;
+}
+
+@media(max-width: 767px) {
+  .timeline-item:nth-child(odd) {
+    padding-right: 0;
+    text-align: left;
+  }
+
+  .timeline-item:nth-child(odd),
+  .timeline-item:nth-child(even) {
+    padding-left: 37px;
+  }
+
+  .timeline-dot {
+    left: 0;
+  }
+}
+
+
+/* ------------------------------------------ */
+/* Gura */
+.gura-title {
+  color: #ffffff;
+  position: relative;
+  font-size: 3em;
+}
+
+.gura-img {
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  margin-top: 3em;
+}
+
+.gura-self-intro {
+  font-size: 2em;
+  color: white;
+  left: 45%;
+  position: absolute;
+}
+
+.gura-self-intro-content {
+  color: white;
+  font-size: 1.5em;
+  max-width: 590px;
+  left: 35%;
+  top: 250%;
+  position: absolute;
+}
+
+.gura-link {
+  font-size: 1.5em;
+  left: 40%;
+  top: 650%;
+  position: absolute;
+  list-style-type: none;
+  /* background-color: gold; */
+  display: flex;
+}
+
+.gura-youtube a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width:150%;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+
+.gura-youtube p {
+  margin-left: 10px;
+}
+
+
+.fa-youtube-play {
+  color: rgb(255, 0, 0);
+}
+
+.gura-twitter{
+  margin-left:5em;
+}
+
+.gura-twitter a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width:175%;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+
+.gura-twitter p {
+  margin-left: 10px;
+}
+
+.fa-twitter {
+  color: rgb(255, 0, 0);
+}
+
+.gura-info {
+  position: absolute;
+  color: red;
+  font-size: 1.5em;
+  top: 100%;
+  left: 40%;
+  line-height: 2em;
+  /* background-color: green; */
+}

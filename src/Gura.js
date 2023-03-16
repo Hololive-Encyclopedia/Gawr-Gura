@@ -1,0 +1,70 @@
+import React from 'react';
+import './Gura.css';
+import gura from './img/gura.png';
+
+
+function App() {
+  return (
+    <section className='timeline-section'>
+      <div className='timeline-items'>
+        <div className='timeline-item'>
+          <div>
+            <h1 className='gura-title'>Gawr Gura</h1>
+            <img src={gura} alt='gura' className='gura-img' />
+          </div>
+
+          <h1 className='gura-self-intro'>Self-introduction</h1>
+          <p className='gura-self-intro-content'>
+            A descendant of the Lost City of Atlantis, who swam to Earth while saying, "It's so boring down there LOLOLOL!"
+            Gura bought her clothes (and her shark hat) in the human world and she really loves them. In her spare time, she enjoys talking to marine life.
+          </p>
+
+          <ul className='gura-link'>
+            <li className='gura-youtube'>
+              <a href="https://www.youtube.com/@GawrGura">
+                <i class="fa fa-youtube-play" aria-hidden="true">
+                </i>
+                <p>Youtube</p>
+              </a>
+            </li>
+            <li className='gura-twitter'>
+              <a href="https://twitter.com/gawrgura">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <p>Twitter</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+
+
+        {/* <div className='gura-info'>
+            <h2>Personal Profile</h2>
+            <div>
+              <p>Name: Gawr Gura</p>
+              <p>Height: 141 cm</p>
+              <p>Age: over 9000 years old</p>
+              <p>Constellation: Gemini</p>
+              <p>Debut time: 2020/9/13</p>
+            </div>
+        </div> */}
+
+
+
+        <div className='timeline-item'>
+
+        </div>
+        <div className='timeline-item'>
+
+        </div>
+      </div>
+      <div className="timeline-dot"></div>
+      <div className="timeline-dot"></div>
+      <div className="timeline-dot"></div>
+      <div className="timeline-dot"></div>
+      <div className="timeline-dot"></div>
+    </section>
+  );
+}
+
+export default App;
