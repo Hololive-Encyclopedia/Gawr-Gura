@@ -123,7 +123,6 @@
   top: 650%;
   position: absolute;
   list-style-type: none;
-  /* background-color: gold; */
   display: flex;
 }
 
@@ -132,13 +131,33 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  width:150%;
+  width: 150%;
   border-radius: 10px;
   border: 3px solid #ffffff;
+
+  /* animation */
+  background: linear-gradient(to right, white 50%, black 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
 }
+
+.gura-youtube a:hover {
+  background-position: left bottom;
+}
+
+.gura-youtube a:visited {
+  color: #ffffff;
+}
+
 
 .gura-youtube p {
   margin-left: 10px;
+  transition: all .4s ease-out;
+}
+
+.gura-youtube p:hover {
+  color: black;
 }
 
 
@@ -146,8 +165,8 @@
   color: rgb(255, 0, 0);
 }
 
-.gura-twitter{
-  margin-left:5em;
+.gura-twitter {
+  margin-left: 5em;
 }
 
 .gura-twitter a {
@@ -155,13 +174,31 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  width:175%;
+  width: 175%;
   border-radius: 10px;
   border: 3px solid #ffffff;
+
+  /* animation */
+  background: linear-gradient(to right, white 50%, black 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
+}
+
+.gura-twitter a:hover {
+  background-position: left bottom;
+}
+
+.gura-twitter a:visited {
+  color: #ffffff;
 }
 
 .gura-twitter p {
   margin-left: 10px;
+  transition: all .4s ease-out;
+}
+.gura-twitter p:hover {
+  color: black;
 }
 
 .fa-twitter {
@@ -175,5 +212,4 @@
   top: 100%;
   left: 40%;
   line-height: 2em;
-  /* background-color: green; */
 }
