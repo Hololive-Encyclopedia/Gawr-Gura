@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -154,6 +156,7 @@
 .gura-youtube p {
   margin-left: 10px;
   transition: all .4s ease-out;
+  z-index: 2;
 }
 
 .gura-youtube p:hover {
@@ -196,6 +199,7 @@
 .gura-twitter p {
   margin-left: 10px;
   transition: all .4s ease-out;
+  z-index: 2;
 }
 .gura-twitter p:hover {
   color: black;
@@ -205,11 +209,46 @@
   color: rgb(255, 0, 0);
 }
 
+
+/* ----------------------------------- */
+/* Gura Info */
+.gura-info-page {
+  height: 100vh;
+  background-color: #474747;
+  overflow-x: hidden;
+}
+
 .gura-info {
+  position: relative; /* Change from absolute to relative */
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.gura-info p {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2em;
+  line-height: 2.5em;
+}
+
+.gura-info-title {
+  font-size: 3em;
+  font-family: 'Courgette', cursive;
+  margin-top: 1em;
+  margin-right:10em;
+}
+
+.gura-property-frame {
+  background-color: rgb(0, 0, 0);
+  width: 30%;
+  border-radius: 10px;
+  opacity: 0.7;
+  margin-top: 3em;
+  margin-left: 10em;
+}
+
+.layer{
   position: absolute;
-  color: red;
-  font-size: 1.5em;
-  top: 100%;
-  left: 40%;
-  line-height: 2em;
+  background: rgba(255, 0, 0, 0.5);
+  width:100%;
+
 }
