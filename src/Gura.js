@@ -4,6 +4,7 @@ import gura from './img/gura.png';
 import guraSelfie from './img/gura-selfie.png';
 
 function Gura() {
+
   return (
     <div>
       <section className='timeline-section'>
@@ -37,23 +38,19 @@ function Gura() {
             </ul>
           </div>
 
-          <div className='timeline-item'>
+          {/* <div className='timeline-item'>
 
           </div>
           <div className='timeline-item'>
 
-          </div>
+          </div> */}
         </div>
 
-        <div className="timeline-dot"></div>
-        <div className="timeline-dot"></div>
-        <div className="timeline-dot"></div>
-        <div className="timeline-dot"></div>
-        <div className="timeline-dot"></div>
+
       </section>
 
-      <section className='gura-info-page'>
-        <div className='gura-info'>
+      <section className='gura-info-page' id="info-page">
+        <div className='gura-info' id="info">
           <h2 className='gura-info-title'>Personal Profile</h2>
           <div className='layer'>
           </div>
