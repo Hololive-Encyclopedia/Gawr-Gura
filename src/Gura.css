@@ -259,7 +259,7 @@
 }
 
 .gura-property-frame {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(40, 36, 36);
   width: 30%;
   border-radius: 10px;
   opacity: 0.85;
@@ -289,4 +289,40 @@
   height: 40em;
 
   animation: fadeInLeft 2s ease-out;
+}
+
+/* ----------------------------- */
+/* Gura video page */
+.gura-video-page {
+  height: 100vh;
+  background-color: #474747;
+  overflow: hidden;
+}
+
+.gura-video-page-title{
+  background-color: red;
+  width: 75%;
+  height: 13%;
+  margin-top:3.5em;
+  margin-right:3em;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.gura-video-page-title h2{
+  font-size: 3.8em;
+  color: white;
+  margin-left: 2em;
+  position: absolute;
+  margin-top: -3%;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+}
+
+.gura-video-container{
+  background-color: red;
+  width: 23%;
+  height: 60%;
+
+
 }

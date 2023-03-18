@@ -2,6 +2,7 @@ import React from 'react';
 import './Gura.css';
 import gura from './img/gura.png';
 import guraSelfie from './img/gura-selfie.png';
+import A from './img/gura-A.png';
 
 function Gura() {
 
@@ -63,6 +64,38 @@ function Gura() {
           </div>
           <img src={guraSelfie} className='gura-selfie' alt='gura-selfie' />
         </div>
+      </section>
+
+
+      <section className='gura-video-page' id="info-page">
+        <header className='gura-video-page-title'>
+          <h2>Videos</h2>
+        </header>
+        {/* <div className='gura-video-container'>
+          <ul className='gura-video'>
+            <li>
+              <a href="https://www.youtube.com/watch?v=r06UeXyiTEg&ab_channel=KazumaSensei">
+                <figure>
+                  <img src={A} alt='gura-video' />
+                </figure>
+                <p>Meme</p>
+                <div>
+                  <p>
+                    A
+                  </p>
+                </div>
+              </a>
+            </li>
+
+
+
+
+
+
+            <li></li>
+            <li></li>
+          </ul>
+        </div> */}
       </section>
 
 
