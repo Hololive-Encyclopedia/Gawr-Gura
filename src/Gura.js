@@ -3,6 +3,8 @@ import './Gura.css';
 import gura from './img/gura.png';
 import guraSelfie from './img/gura-selfie.png';
 import A from './img/gura-A.png';
+import Math from './img/gura-math.jpg';
+import Sing from './img/gura-sing.jpg';
 
 function Gura() {
 
@@ -67,35 +69,53 @@ function Gura() {
       </section>
 
 
-      <section className='gura-video-page' id="info-page">
+      <section className='gura-video-page'>
         <header className='gura-video-page-title'>
           <h2>Videos</h2>
         </header>
-        {/* <div className='gura-video-container'>
-          <ul className='gura-video'>
-            <li>
-              <a href="https://www.youtube.com/watch?v=r06UeXyiTEg&ab_channel=KazumaSensei">
+        <div className='gura-video-container'>
+          <ul className='gura-video-list'>
+            <li className='gura-video'>
+              <a href="https://www.youtube.com/watch?v=r06UeXyiTEg&ab_channel=KazumaSensei" className='gura-video-link'>
                 <figure>
-                  <img src={A} alt='gura-video' />
+                  <img src={A} className="gura-A" alt='gura-video' />
                 </figure>
-                <p>Meme</p>
-                <div>
+                <p className='gura-video-label'>Meme</p>
+                <div className='gura-video-content'>
                   <p>
-                    A
+                    "A"
                   </p>
                 </div>
               </a>
             </li>
-
-
-
-
-
-
-            <li></li>
-            <li></li>
+            <li className='gura-video'>
+              <a href="https://www.youtube.com/watch?v=BBDcKfmU1qc&ab_channel=%E7%83%A4%E9%AF%8Amansharkman" className='gura-video-link'>
+                <figure>
+                  <img src={Math} className="gura-math" alt='gura-video' />
+                </figure>
+                <p className='gura-video-label'>Clip</p>
+                <div className='gura-video-content'>
+                  <p>
+                    Quite bad at math
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li className='gura-video'>
+              <a href="https://www.youtube.com/watch?v=LbZMzcGU2t0&ab_channel=%E5%82%A2%E5%82%A2%E5%8F%AA%E6%83%B3%E7%9D%A1%E5%89%8D%E8%81%BD%E6%AD%8C" className='gura-video-link'>
+                <figure>
+                  <img src={Sing} className="gura-sing" alt='gura-video' />
+                </figure>
+                <p className='gura-video-label'>Song</p>
+                <div className='gura-video-content'>
+                  <p>
+                    Good at singing, cover songs are also classic
+                  </p>
+                </div>
+              </a>
+            </li>
           </ul>
-        </div> */}
+        </div>
       </section>
 
 

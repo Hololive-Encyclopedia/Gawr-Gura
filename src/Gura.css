@@ -238,8 +238,8 @@
   color: rgb(255, 255, 255);
   text-align: center;
 
-    /* animation */
-    animation: fadeInLeft 1s ease-out;
+  /* animation */
+  animation: fadeInLeft 1s ease-out;
 }
 
 .gura-info p {
@@ -247,8 +247,8 @@
   font-size: 2em;
   line-height: 2.5em;
 
-    /* animation */
-    animation: fadeInLeft 1.2s ease-out;
+  /* animation */
+  animation: fadeInLeft 1.2s ease-out;
 }
 
 .gura-info-title {
@@ -299,17 +299,20 @@
   overflow: hidden;
 }
 
-.gura-video-page-title{
+.gura-video-page-title {
+  position: relative; /* added */
   background-color: red;
   width: 75%;
-  height: 13%;
-  margin-top:3.5em;
-  margin-right:3em;
+  height: 12%;
+  margin-top: 3.5em;
+  margin-right: 3em;
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
+
+  animation: fadeInLeft 1s ease-out;
 }
 
-.gura-video-page-title h2{
+.gura-video-page-title h2 {
   font-size: 3.8em;
   color: white;
   margin-left: 2em;
@@ -317,12 +320,86 @@
   margin-top: -3%;
   letter-spacing: 15px;
   text-transform: uppercase;
+  animation: fadeInLeft ease-out 3s;
 }
 
-.gura-video-container{
-  background-color: red;
-  width: 23%;
-  height: 60%;
+.gura-video-container {
+  /* background-color: red; */
+  width: 100%;
+  height: 100%;
+}
 
 
+.gura-video-list {
+  list-style: none;
+  display: flex;
+  margin-left:3em;
+}
+
+.gura-video {
+  background-color: rgb(49, 94, 138);
+  width: 20%;
+  border-radius: 20px;
+  margin-left: 4em;
+  margin-top: 5em;
+  
+}
+
+.gura-video:hover {
+  transform: scale3d(1.02, 1.02, 1.02);
+  transition: all 0.5s ease-in-out;
+}
+
+/* ---- */
+/* graphics */
+.gura-A {
+  width: 90%;
+  height: 7.4em;
+  margin-top: 1.5em;
+  margin-left: 0.8em;
+  border-radius: 15px;
+}
+
+.gura-math {
+  width: 90%;
+  margin-top: 1.5em;
+  margin-left: 0.8em;
+  border-radius: 15px;
+  height: 7.4em;
+}
+
+.gura-sing {
+  width: 90%;
+  margin-top: 1.5em;
+  margin-left: 0.8em;
+  border-radius: 15px;
+  height: 7.4em;
+}
+
+/* ------- */
+
+.gura-video-link {
+  text-decoration: none;
+  color: white;
+}
+
+.gura-video-label {
+  background-color: rgba(255, 255, 255, 0.767);
+  color:black;
+  border: 1.3px solid black;
+  width: 22%;
+  margin-left: 1em;
+  margin-top: 0.5em;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+.gura-video-content {
+  margin-top: 0.7em;
+  margin-bottom: 3.5em;
+  margin-left: 1em;
+  font-size: 1.2em;
+  width: 85%;
+  height: 30%;
 }
