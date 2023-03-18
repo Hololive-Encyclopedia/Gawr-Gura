@@ -201,6 +201,7 @@
   transition: all .4s ease-out;
   z-index: 2;
 }
+
 .gura-twitter p:hover {
   color: black;
 }
@@ -212,6 +213,19 @@
 
 /* ----------------------------------- */
 /* Gura Info */
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 .gura-info-page {
   height: 100vh;
   background-color: #474747;
@@ -219,22 +233,29 @@
 }
 
 .gura-info {
-  position: relative; /* Change from absolute to relative */
+  position: relative;
+  /* Change from absolute to relative */
   color: rgb(255, 255, 255);
   text-align: center;
+
+    /* animation */
+    animation: fadeInLeft 1s ease-out;
 }
 
 .gura-info p {
   font-family: 'Kaushan Script', cursive;
   font-size: 2em;
   line-height: 2.5em;
+
+    /* animation */
+    animation: fadeInLeft 1.2s ease-out;
 }
 
 .gura-info-title {
   font-size: 3em;
   font-family: 'Courgette', cursive;
   margin-top: 1em;
-  margin-right:12em;
+  margin-right: 12em;
 }
 
 .gura-property-frame {
@@ -246,24 +267,26 @@
   margin-left: 10em;
 }
 
-.layer{
+.layer {
   position: absolute;
   border-color: rgba(0, 217, 255, 0.543);
   border-style: solid;
   border-width: 1px;
 
-  width:30%;
-  height:80%;
-  left:15%;
-  top:25%;
+  width: 30%;
+  height: 80%;
+  left: 15%;
+  top: 25%;
   border-radius: 10px;
   box-shadow: #fafafa 0px 0px 10px 0px;
 }
 
-.gura-selfie{
+.gura-selfie {
   position: absolute;
-  top:-10%;
-  left:50%;
-  width:25em;
-  height:40em;
+  top: -10%;
+  left: 50%;
+  width: 25em;
+  height: 40em;
+
+  animation: fadeInLeft 2s ease-out;
 }
