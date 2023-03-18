@@ -40,6 +40,11 @@ function Gura() {
             </ul>
           </div>
         </div>
+        {/* <div className="timeline-content">Gawr Gura</div>
+        <div className="timeline-content">Watson Amelia</div>
+        <div className="timeline-content">Ninomae Ina'nis</div>
+        <div className="timeline-content">Calliope Mori</div>
+        <div className="timeline-content">Takanashi Kiara</div> */}
 
 
       </section>

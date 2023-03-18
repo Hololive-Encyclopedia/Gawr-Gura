@@ -8,7 +8,7 @@
 }
 
 .timeline-section {
-  background-color: #24292d;
+  background-color: #000000;
   min-height: 100vh;
   padding: 100px 15px;
   overflow: hidden;
@@ -40,10 +40,11 @@
 .timeline-dot {
   height: 16px;
   width: 16px;
-  background: #eaa023;
+  background: #ff6f00;
   position: absolute;
   left: calc(90%);
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .timeline-dot:nth-child(2) {
