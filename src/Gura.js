@@ -1,5 +1,5 @@
 import React from 'react';
-import './Gura.css';
+import './css/Gura.css';
 import gura from './img/gura.png';
 import guraSelfie from './img/gura-selfie.png';
 import A from './img/gura-A.png';
@@ -20,8 +20,7 @@ function Gura() {
 
             <h1 className='gura-self-intro'>Self-introduction</h1>
             <p className='gura-self-intro-content'>
-              A descendant of the Lost City of Atlantis, who swam to Earth while saying, "It's so boring down there LOLOLOL!"
-              Gura bought her clothes (and her shark hat) in the human world and she really loves them. In her spare time, she enjoys talking to marine life.
+              A descendant of the Lost City of Atlantis, who swam to Earth while saying, 'It's so boring down there LOLOLOL!' Gura bought her clothes (and her shark hat) in the human world and she really loves them. In her spare time, she enjoys talking to marine life.
             </p>
 
             <ul className='gura-link'>
@@ -40,18 +39,10 @@ function Gura() {
               </li>
             </ul>
           </div>
-
-          {/* <div className='timeline-item'>
-
-          </div>
-          <div className='timeline-item'>
-
-          </div> */}
         </div>
 
 
       </section>
-
       <section className='gura-info-page' id="info-page">
         <div className='gura-info' id="info">
           <h2 className='gura-info-title'>Personal Profile</h2>

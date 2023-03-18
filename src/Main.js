@@ -1,6 +1,6 @@
 import React from "react";
 import Gura from "./Gura.js";
-import "./Gura.css";
+import "./css/timeline-dot.css";
 
 export default function Main() {
     return (
