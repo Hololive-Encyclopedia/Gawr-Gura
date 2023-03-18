@@ -1,6 +1,7 @@
 import React from 'react';
 import './Gura.css';
 import gura from './img/gura.png';
+import guraSelfie from './img/gura-selfie.png';
 
 function Gura() {
   return (
@@ -54,6 +55,8 @@ function Gura() {
       <section className='gura-info-page'>
         <div className='gura-info'>
           <h2 className='gura-info-title'>Personal Profile</h2>
+          <div className='layer'>
+          </div>
           <div className='gura-property-frame'>
             <p>Name: Gawr Gura</p>
             <p>Height: 141 cm</p>
@@ -61,8 +64,7 @@ function Gura() {
             <p>Constellation: Gemini</p>
             <p>Debut time: 2020/9/13</p>
           </div>
-          <div className='layer'>
-          </div>
+          <img src={guraSelfie} className='gura-selfie' alt='gura-selfie' />
         </div>
       </section>
 
