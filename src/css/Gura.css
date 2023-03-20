@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Federo&family=Rubik+Dirt&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -8,10 +9,20 @@
 }
 
 .timeline-section {
-  background-color: #000000;
+  /* background-color: #000000; */
   min-height: 100vh;
   padding: 100px 15px;
   overflow: hidden;
+
+  /* background */
+  background-blend-mode: screen;
+  background: linear-gradient(180deg, #008aff, #ff137d), url("../img/gura-sing.jpg") no-repeat center center;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .timeline-items {
@@ -28,7 +39,7 @@
   left: 90.6%;
   width: 2px;
   height: 60%;
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 .timeline-item {
@@ -92,7 +103,7 @@
 /* ------------------------------------------ */
 /* Gura */
 .gura-title {
-  color: #ffffff;
+  color: #0c566b;
   position: relative;
   font-size: 3.5em;
   margin-top: 0;
@@ -103,21 +114,21 @@
   width: 15em;
   height: 15em;
   border-radius: 50%;
-  background-color: white;
+  background-color: transparent;
   position: absolute;
   margin-top: 3em;
 }
 
 .gura-self-intro {
   font-size: 3em;
-  color: white;
+  color: rgb(0, 0, 0);
   left: 43%;
   position: absolute;
   font-family: 'Averia Serif Libre', cursive;
 }
 
 .gura-self-intro-content {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 1.5em;
   max-width: 590px;
   left: 35%;
@@ -135,6 +146,7 @@
   display: flex;
 }
 
+
 .gura-youtube a {
   display: flex;
   align-items: center;
@@ -142,13 +154,14 @@
   text-decoration: none;
   width: 150%;
   border-radius: 10px;
-  border: 3px solid #ffffff;
-
+  border: 3px solid #dfb6fe;
+  
   /* animation */
-  background: linear-gradient(to right, white 50%, black 50%);
+  background: linear-gradient(to right, #696a6a 50%, #000000 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all .5s ease-out;
+  z-index: -1;
 }
 
 .gura-youtube a:hover {
@@ -167,7 +180,7 @@
 }
 
 .gura-youtube p:hover {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 
@@ -186,17 +199,19 @@
   text-decoration: none;
   width: 175%;
   border-radius: 10px;
-  border: 3px solid #ffffff;
+  border: 3px solid #dfb6fe;
 
   /* animation */
-  background: linear-gradient(to right, white 50%, black 50%);
+  background: linear-gradient(to right, #696a6a 50%, #000000 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all .5s ease-out;
+  z-index: -1;
 }
 
 .gura-twitter a:hover {
   background-position: left bottom;
+  color: #000000;
 }
 
 .gura-twitter a:visited {
@@ -214,7 +229,7 @@
 }
 
 .fa-twitter {
-  color: rgb(255, 0, 0);
+  color: rgb(0, 132, 255);
 }
 
 
