@@ -241,7 +241,7 @@
 
 /* Main Styles */
 .gura-twitter-button {
-  top: -1rem;
+  bottom: -1rem;
   left: 20rem;
   background-color: #a4d5ff;
   position: absolute;
