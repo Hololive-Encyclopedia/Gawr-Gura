@@ -1,6 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Federo&family=Pacifico&display=swap');
 .myth-page {
-    min-height: 100vh;
+    max-height: 100vh;
     padding: 5% 10%;
     overflow: hidden;
+    background-color: #000;
 }
 
+.myth-title{
+    font-family: 'Pacifico', cursive;
+    position:absolute;
+    top:0%;
+    left:10%;
+    color:white;
+}
+
+.myth-logo{
+    position:absolute;
+    width: 50%;
+    height: 70%;
+    object-fit: contain;
+
+    margin: 0 auto;
+    display: block;
+    left: 25%;
+    top: 15%;
+    opacity: 0.5;
+
+}
+
+
+.carousel {
+    height: 100vh;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel .carousel-item {
+    width: 400px;
+    margin-top:-10em;
+}
+
+.carousel .carousel-item img {
+    width: 70%;
+    cursor:pointer;
+    margin-left: 3em;
+}
+
+.character-name{
+    color:white;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* padding:px 5px; */
+    font-weight:bold;
+    font-size:2em;
+    text-align:center;
+}

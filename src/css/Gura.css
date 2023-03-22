@@ -19,9 +19,9 @@
   background: linear-gradient(180deg, #008aff, #ff137d), url("../img/gura-sing.jpg") no-repeat center center;
 }
 
-.wave {
+.timeline-section .wave {
   position: absolute;
-  bottom: 0;
+  bottom: -100vh;
   left: 0;
 }
 
