@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Federo&family=Rubik+Dirt&display=swap');
 
+
 * {
   margin: 0;
   padding: 0;
@@ -424,12 +425,11 @@
 }
 
 .gura-video {
-  background-color: rgb(49, 94, 138);
+  background: linear-gradient(135deg, #ff2929, #8cf9b2) repeat center center;
   width: 20%;
   border-radius: 20px;
   margin-left: 4em;
   margin-top: 5em;
-
 }
 
 .gura-video:hover {
@@ -440,25 +440,25 @@
 /* ---- */
 /* graphics */
 .gura-A {
-  width: 90%;
+  width: 120%;
   height: 7.4em;
   margin-top: 1.5em;
-  margin-left: 0.8em;
+  margin-left: -1.1em;
   border-radius: 15px;
 }
 
 .gura-math {
-  width: 90%;
+  width: 120%;
   margin-top: 1.5em;
-  margin-left: 0.8em;
+  margin-left: -1.1em;
   border-radius: 15px;
   height: 7.4em;
 }
 
 .gura-sing {
-  width: 90%;
+  width: 120%;
   margin-top: 1.5em;
-  margin-left: 0.8em;
+  margin-left: -1.1em;
   border-radius: 15px;
   height: 7.4em;
 }

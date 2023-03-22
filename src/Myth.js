@@ -8,20 +8,41 @@ import Kiara from "./img/Kiara.png";
 import mythLogo from "./img/myth-logo.png";
 
 export default function Myth() {
+
+    const scrollToIntro = (event) => {
+        event.preventDefault();
+    
+        const introSection = document.querySelector('#CharacterSelect');
+        const introSectionPos = introSection.getBoundingClientRect().top + window.scrollY;
+    
+        window.scrollTo({
+          top: introSectionPos,
+          behavior: 'smooth'
+        });
+      };
+
     useEffect(() => {
         const carousel = document.querySelector(".carousel");
         window.M.Carousel.init(carousel, {});
     }, []);
 
     return (
-        <div className="myth-page">
+        <div className="myth-page" id="CharacterSelect">
+            <div className="upbutton">
+                <a href="#CharacterSelect" onClick={scrollToIntro}>
+                    <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+                </a>
+            </div>
             <h1 className="myth-title">Myth</h1>
-            <img src = {mythLogo} className="myth-logo" alt="myth-logo" />
+            <img src={mythLogo} className="myth-logo" alt="myth-logo" />
             <div className="carousel">
                 <div className="carousel-item item-size">
-                    <img src={Gura} alt="Gura" />
-                    <div className="character-name">Gawr Gura</div>
+                    <a href="#section1">
+                        <img src={Gura} alt="Gura" />
+                        <div className="character-name">Gawr Gura</div>
+                    </a>
                 </div>
+
                 <div className="carousel-item item-size">
                     <img src={Ame} alt="Ame" />
                     <div className="character-name">Amelia Watson</div>
@@ -39,6 +60,6 @@ export default function Myth() {
                     <div className="character-name">Takanashi Kiara</div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }

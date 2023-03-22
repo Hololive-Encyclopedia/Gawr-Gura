@@ -1,6 +1,5 @@
 import React from "react";
 import Gura from "./Gura.js";
-import "./css/timeline-dot.css";
 import Myth from "./Myth.js";
 
 export default function Main() {

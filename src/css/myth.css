@@ -1,4 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Federo&family=Pacifico&display=swap');
+
+.upbutton {
+    position:absolute;
+    top: 85%;
+    left:93%;
+}
+
+.fa-arrow-circle-up {
+    position: fixed;
+    color: linear-gradient(180deg, #008aff 50%, #ff137d 50%) no-repeat center center;
+    font-size: 4em;
+    cursor: pointer;
+    z-index: 5;
+}
+
 .myth-page {
     max-height: 100vh;
     padding: 5% 10%;
@@ -6,16 +21,16 @@
     background-color: #000;
 }
 
-.myth-title{
+.myth-title {
     font-family: 'Pacifico', cursive;
-    position:absolute;
-    top:0%;
-    left:10%;
-    color:white;
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    color: white;
 }
 
-.myth-logo{
-    position:absolute;
+.myth-logo {
+    position: absolute;
     width: 50%;
     height: 70%;
     object-fit: contain;
@@ -39,22 +54,22 @@
 
 .carousel .carousel-item {
     width: 400px;
-    margin-top:-10em;
+    margin-top: -10em;
 }
 
 .carousel .carousel-item img {
     width: 70%;
-    cursor:pointer;
-    margin-left: 3em;
+    cursor: pointer;
+    margin-left: 3.5em;
 }
 
-.character-name{
-    color:white;
-    margin:0;
-    padding:0;
+.character-name {
+    color: white;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     /* padding:px 5px; */
-    font-weight:bold;
-    font-size:2em;
-    text-align:center;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
 }

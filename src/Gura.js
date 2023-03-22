@@ -77,17 +77,14 @@ function Gura() {
             </ul>
           </div>
         </div>
-        <div className="timeline-content">Gawr Gura</div>
-        <div className="timeline-content">Watson Amelia</div>
-        <div className="timeline-content">Ninomae Ina'nis</div>
-        <div className="timeline-content">Calliope Mori</div>
-        <div className="timeline-content">Takanashi Kiara</div>
       </section>
+
+      {/* second page */}
       <section className="gura-info-page" id="info-page">
         <div className="gura-info" id="info">
           <h2 className="gura-info-title">Personal Profile</h2>
           <div className="layer"></div>
-          <div className="gura-property-frame">
+          <div className="gura-property-frame animate__animated animate__fadeIn">
             <p>Name: Gawr Gura</p>
             <p>Height: 141 cm</p>
             <p>Age: over 9000 years old</p>
@@ -96,9 +93,10 @@ function Gura() {
           </div>
           <img src={guraSelfie} className="gura-selfie" alt="gura-selfie" />
         </div>
-      </section>
+      </section >
 
-      <section className="gura-video-page">
+      {/* third page */}
+      < section className="gura-video-page" >
         <header className="gura-video-page-title">
           <h2>Videos</h2>
         </header>
@@ -148,8 +146,8 @@ function Gura() {
             </li>
           </ul>
         </div>
-      </section>
-    </div>
+      </section >
+    </div >
   );
 }
 
