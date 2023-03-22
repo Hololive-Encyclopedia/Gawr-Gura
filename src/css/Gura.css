@@ -123,24 +123,26 @@
   font-size: 3em;
   color: rgb(0, 0, 0);
   left: 43%;
+  top: 10%;
   position: absolute;
   font-family: 'Averia Serif Libre', cursive;
 }
 
 .gura-self-intro-content {
+  height: 300px;
   color: rgb(0, 0, 0);
   font-size: 1.5em;
   max-width: 590px;
   left: 35%;
-  top: 50%;
-  position: relative;
+  top: 120%;
+  position: absolute;
   font-family: 'Averia Serif Libre', cursive;
 }
 
 .gura-link {
   font-size: 1.5em;
   left: 40%;
-  top: 85%;
+  top: 250%;
   position: relative;
   list-style-type: none;
   display: flex;
