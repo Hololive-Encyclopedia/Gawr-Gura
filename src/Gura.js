@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import "./css/Gura.css";
-import gura from "./img/gura.png";
-import guraSelfie from "./img/gura-selfie.png";
-import A from "./img/gura-A.png";
-import Math from "./img/gura-math.jpg";
-import Sing from "./img/gura-sing.jpg";
+import gura from "./img/Gura/gura.png";
+import guraSelfie from "./img/Gura/gura-selfie.png";
+import A from "./img/Gura/gura-A.png";
+import Math from "./img/Gura/gura-math.jpg";
+import Sing from "./img/Gura/gura-sing.jpg";
+import "./css/Ame.css"
 
 function Gura() {
   const [text, setText] = useState("");
@@ -22,7 +23,7 @@ function Gura() {
   }, [index]);
   return (
     <div>
-      <section className="timeline-section" id="section1">
+      <section className="gura-timeline-section" id="section1">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="wave"

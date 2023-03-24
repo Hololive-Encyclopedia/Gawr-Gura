@@ -1,25 +1,25 @@
 import React, { useEffect } from "react";
 import "./css/myth.css";
-import Gura from "./img/gura-selfie.png";
-import Ame from "./img/Ame.png";
-import Ina from "./img/Ina.png";
-import Calli from "./img/Calli.png";
-import Kiara from "./img/Kiara.png";
+import Gura from "./img/Gura/gura-selfie.png";
+import Ame from "./img/Ame/Ame.png";
+import Ina from "./img/Ina/Ina.png";
+import Calli from "./img/Calli/Calli.png";
+import Kiara from "./img/Kiara/Kiara.png";
 import mythLogo from "./img/myth-logo.png";
 
 export default function Myth() {
 
     const scrollToIntro = (event) => {
         event.preventDefault();
-    
+
         const introSection = document.querySelector('#CharacterSelect');
         const introSectionPos = introSection.getBoundingClientRect().top + window.scrollY;
-    
+
         window.scrollTo({
-          top: introSectionPos,
-          behavior: 'smooth'
+            top: introSectionPos,
+            behavior: 'smooth'
         });
-      };
+    };
 
     useEffect(() => {
         const carousel = document.querySelector(".carousel");
@@ -44,8 +44,10 @@ export default function Myth() {
                 </div>
 
                 <div className="carousel-item item-size">
-                    <img src={Ame} alt="Ame" />
-                    <div className="character-name">Amelia Watson</div>
+                    <a href="#section2">
+                        <img src={Ame} alt="Ame" />
+                        <div className="character-name">Amelia Watson</div>
+                    </a>
                 </div>
                 <div className="carousel-item item-size">
                     <img src={Ina} alt="Ina" />

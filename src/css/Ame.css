@@ -9,7 +9,11 @@
   box-sizing: border-box;
 }
 
-.gura-timeline-section {
+.gura-video-page .ame-page-deco1 {
+  z-index: -1;
+}
+
+.ame-timeline-section {
   /* background-color: #000000; */
   min-height: 100vh;
   padding: 100px 15px;
@@ -17,13 +21,38 @@
 
   /* background */
   background-blend-mode: screen;
-  background: linear-gradient(180deg, #008aff, #ff137d), url("../img/Gura/gura-sing.jpg") no-repeat center center;
+  background: linear-gradient(180deg, #007129, #8e9108), url("../img/Ame/ame-selfie.jpg") no-repeat center center;
 }
 
-.gura-timeline-section .wave {
+.ame-page-deco1 {
   position: absolute;
-  bottom: -100vh;
+  top: 350vh;
+  left: -50vh;
+  width:50%;
+  height: 100%;
+  background-color: #fff;
+  rotate:calc(225deg);
+
+  --mask:
+    radial-gradient(23.32px at 32.00px 50%, #000 99%, #0000 101%) 0 calc(50% - 40px)/51% 80px repeat-y,
+    radial-gradient(23.32px at -12px 50%, #0000 99%, #000 101%) 20px 50%/calc(51% - 20px) 80px repeat-y,
+    radial-gradient(23.32px at calc(100% - 32.00px) 50%, #000 99%, #0000 101%) 100% calc(50% - 40px)/51% 80px repeat-y,
+    radial-gradient(23.32px at calc(100% + 12.00px) 50%, #0000 99%, #000 101%) calc(100% - 20px) 50%/calc(51% - 20px) 80px repeat-y;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+}
+
+.ame-page-deco2 {
+  position: absolute;
+  top: 0;
   left: 0;
+  --mask:
+    radial-gradient(23.32px at 32.00px 50%, #000 99%, #0000 101%) 0 calc(50% - 40px)/51% 80px repeat-y,
+    radial-gradient(23.32px at -12px 50%, #0000 99%, #000 101%) 20px 50%/calc(51% - 20px) 80px repeat-y,
+    radial-gradient(23.32px at calc(100% - 32.00px) 50%, #000 99%, #0000 101%) 100% calc(50% - 40px)/51% 80px repeat-y,
+    radial-gradient(23.32px at calc(100% + 12.00px) 50%, #0000 99%, #000 101%) calc(100% - 20px) 50%/calc(51% - 20px) 80px repeat-y;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
 }
 
 .timeline-items {
@@ -102,25 +131,25 @@
 
 
 /* ------------------------------------------ */
-/* Gura */
-.gura-title {
+/* ame */
+.ame-title {
   color: #0c566b;
   position: relative;
-  font-size: 3.5em;
+  font-size: 3.2em;
   margin-top: 0;
   font-family: 'Averia Serif Libre', cursive;
 }
 
-.gura-img {
+.ame-img {
   width: 15em;
-  height: 15em;
+  height: 16em;
   border-radius: 50%;
   background-color: transparent;
   position: absolute;
   margin-top: 3em;
 }
 
-.gura-self-intro {
+.ame-self-intro {
   font-size: 3em;
   color: rgb(0, 0, 0);
   left: 43%;
@@ -129,18 +158,18 @@
   font-family: 'Averia Serif Libre', cursive;
 }
 
-.gura-self-intro-content {
+.ame-self-intro-content {
   height: 300px;
   color: rgb(0, 0, 0);
   font-size: 1.5em;
   max-width: 590px;
   left: 35%;
-  top: 120%;
+  top: 135%;
   position: absolute;
   font-family: 'Averia Serif Libre', cursive;
 }
 
-.gura-link {
+.ame-link {
   font-size: 1.5em;
   left: 40%;
   top: 250%;
@@ -150,8 +179,8 @@
 }
 
 /* Main Styles */
-.gura-twitter-button {
-  bottom: -7rem;
+.ame-twitter-button {
+  bottom: -10rem;
   left: 20rem;
   background-color: #a4d5ff;
   position: absolute;
@@ -169,16 +198,16 @@
   color: rgb(40, 144, 241);
   transition: color 0.3s 0.1s ease-out;
   text-align: center;
-  z-index: 2;
 }
 
-.gura-twitter-button span, .gura-twitter-button svg {
+.ame-twitter-button span,
+.ame-twitter-button svg {
 
   z-index: 2;
   margin: 10px;
 }
 
-.gura-twitter-button::before {
+.ame-twitter-button::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -196,18 +225,18 @@
   z-index: 1;
 }
 
-.gura-twitter-button:hover {
+.ame-twitter-button:hover {
   color: #fff;
   border: 1px solid rgb(186, 222, 255);
 }
 
-.gura-twitter-button:hover::before {
+.ame-twitter-button:hover::before {
   box-shadow: inset 0 0 0 10em rgb(40, 144, 241);
 }
 
 
-.gura-youtube-button {
-  bottom: -7rem;
+.ame-youtube-button {
+  bottom: -10rem;
   left: 5rem;
   background-color: #f5a6b5;
   position: absolute;
@@ -225,16 +254,16 @@
   color: rgb(255, 0, 0);
   transition: color 0.3s 0.1s ease-out;
   text-align: center;
-  z-index: 2;
 }
 
-.gura-youtube-button span, .gura-youtube-button svg {
+.ame-youtube-button span,
+.ame-youtube-button svg {
 
   z-index: 2;
   margin: 10px;
 }
 
-.gura-youtube-button::before {
+.ame-youtube-button::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -252,19 +281,19 @@
   z-index: 1;
 }
 
-.gura-youtube-button:hover {
+.ame-youtube-button:hover {
   color: #fff;
   border: 1px solid rgb(186, 222, 255);
 }
 
-.gura-youtube-button:hover::before {
+.ame-youtube-button:hover::before {
   box-shadow: inset 0 0 0 10em rgb(255, 0, 0);
 }
- 
+
 
 
 /* ----------------------------------- */
-/* Gura Info */
+/* ame Info */
 
 @keyframes fadeInLeft {
   0% {
@@ -278,13 +307,13 @@
   }
 }
 
-.gura-info-page {
+.ame-info-page {
   height: 100vh;
   background-color: #474747;
   overflow: hidden;
 }
 
-.gura-info {
+.ame-info {
   position: relative;
   color: rgb(255, 255, 255);
   text-align: center;
@@ -293,7 +322,7 @@
   animation: fadeInLeft 1s ease-out;
 }
 
-.gura-info p {
+.ame-info p {
   font-family: 'Kaushan Script', cursive;
   font-size: 2em;
   line-height: 2.5em;
@@ -302,14 +331,14 @@
   animation: fadeInLeft 1.2s ease-out;
 }
 
-.gura-info-title {
+.ame-info-title {
   font-size: 3em;
   font-family: 'Courgette', cursive;
   margin-top: 1em;
   margin-right: 12em;
 }
 
-.gura-property-frame {
+.ame-property-frame {
   background-color: rgb(40, 36, 36);
   width: 30%;
   border-radius: 10px;
@@ -332,25 +361,25 @@
   box-shadow: #fafafa 0px 0px 10px 0px;
 }
 
-.gura-selfie {
+.ame-selfie {
   position: absolute;
-  top: -10%;
+  top: 10%;
   left: 50%;
   width: 25em;
-  height: 40em;
+  height: 31em;
 
   animation: fadeInLeft 2s ease-out;
 }
 
 /* ----------------------------- */
-/* Gura video page */
-.gura-video-page {
+/* ame video page */
+.ame-video-page {
   height: 100vh;
   background-color: #474747;
   overflow: hidden;
 }
 
-.gura-video-page-title {
+.ame-video-page-title {
   position: relative;
   background-color: red;
   width: 75%;
@@ -365,7 +394,7 @@
   animation: fadeInLeft 1s ease-out;
 }
 
-.gura-video-page-title h2 {
+.ame-video-page-title h2 {
   font-size: 3.8em;
   color: white;
   margin-left: 2em;
@@ -376,19 +405,19 @@
   animation: fadeInLeft ease-out 3s;
 }
 
-.gura-video-container {
+.ame-video-container {
   width: 100%;
   height: 100%;
 }
 
 
-.gura-video-list {
+.ame-video-list {
   list-style: none;
   display: flex;
   margin-left: 3em;
 }
 
-.gura-video {
+.ame-video {
   background: linear-gradient(135deg, #ff2929, #8cf9b2) repeat center center;
   width: 20%;
   border-radius: 20px;
@@ -396,14 +425,14 @@
   margin-top: 5em;
 }
 
-.gura-video:hover {
+.ame-video:hover {
   transform: scale3d(1.02, 1.02, 1.02);
   transition: all 0.5s ease-in-out;
 }
 
 /* ---- */
 /* graphics */
-.gura-A {
+.ame-A {
   width: 120%;
   height: 7.4em;
   margin-top: 1.5em;
@@ -411,7 +440,7 @@
   border-radius: 15px;
 }
 
-.gura-math {
+.ame-math {
   width: 120%;
   margin-top: 1.5em;
   margin-left: -1.1em;
@@ -419,7 +448,7 @@
   height: 7.4em;
 }
 
-.gura-sing {
+.ame-sing {
   width: 120%;
   margin-top: 1.5em;
   margin-left: -1.1em;
@@ -429,12 +458,12 @@
 
 /* ------- */
 
-.gura-video-link {
+.ame-video-link {
   text-decoration: none;
   color: white;
 }
 
-.gura-video-label {
+.ame-video-label {
   background-color: rgba(255, 255, 255, 0.767);
   color: black;
   border: 1.3px solid black;
@@ -446,7 +475,7 @@
   font-size: 1em;
 }
 
-.gura-video-content {
+.ame-video-content {
   margin-top: 0.7em;
   margin-bottom: 3.5em;
   margin-left: 1em;

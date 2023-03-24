@@ -1,12 +1,14 @@
 import React from "react";
 import Gura from "./Gura.js";
 import Myth from "./Myth.js";
+import Ame from "./Ame.js";
 
 export default function Main() {
     return (
         <div>
             <Myth />
             <Gura />
+            <Ame />
             {/* <a href="#section1" className="timeline-dot">
                 <div  data-id="1"></div>
             </a> */}
