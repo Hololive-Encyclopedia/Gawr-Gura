@@ -5,7 +5,6 @@ import guraSelfie from "./img/Gura/gura-selfie.png";
 import A from "./img/Gura/gura-A.png";
 import Math from "./img/Gura/gura-math.jpg";
 import Sing from "./img/Gura/gura-sing.jpg";
-import "./css/Ame.css"
 
 function Gura() {
   const [text, setText] = useState("");
