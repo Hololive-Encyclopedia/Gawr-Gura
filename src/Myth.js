@@ -50,16 +50,22 @@ export default function Myth() {
                     </a>
                 </div>
                 <div className="carousel-item item-size">
-                    <img src={Ina} alt="Ina" />
-                    <div className="character-name">Ninomae Ina'nis</div>
+                    <a href="#section3">
+                        <img src={Ina} alt="Ina" />
+                        <div className="character-name">Ninomae Ina'nis</div>
+                    </a>
                 </div>
                 <div className="carousel-item item-size">
-                    <img src={Calli} alt="Calli" />
-                    <div className="character-name">Calliope Mori</div>
+                    <a href="#section4">
+                        <img src={Calli} alt="Calli" />
+                        <div className="character-name">Calliope Mori</div>
+                    </a>
                 </div>
                 <div className="carousel-item item-size">
-                    <img src={Kiara} alt="Kiara" />
-                    <div className="character-name">Takanashi Kiara</div>
+                    <a href="#section5">
+                        <img src={Kiara} alt="Kiara" />
+                        <div className="character-name">Takanashi Kiara</div>
+                    </a>
                 </div>
             </div>
         </div >

@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 
-.ame-timeline-section {
+.ina-timeline-section {
   /* background-color: #000000; */
   min-height: 100vh;
   padding: 100px 15px;
@@ -17,48 +17,8 @@
 
   /* background */
   background-blend-mode: screen;
-  background: linear-gradient(180deg, #78783d, #ff7904), url("../img/Ame/ame-selfie.jpg") no-repeat center center;
+  background: linear-gradient(180deg, #1621f5, #de6aed), url("../img/Ina/ina-background.jpg") no-repeat center center;
 }
-
-
-.ame-page-deco1 {
-  position: absolute;
-  top: 350vh;
-  left: -90vh;
-  width:55%;
-  height: 100%;
-  background-color: #ffffff;
-  rotate:calc(220.85deg);
-  clip-path: polygon(100% 0, 0 0, 0 100%);
-
-  --mask:
-    radial-gradient(23.32px at 32.00px 50%, #000 99%, #0000 101%) 0 calc(50% - 40px)/51% 80px repeat-y,
-    radial-gradient(23.32px at -12px 50%, #0000 99%, #000 101%) 20px 50%/calc(51% - 20px) 80px repeat-y,
-    radial-gradient(23.32px at calc(100% - 32.00px) 50%, #000 99%, #0000 101%) 100% calc(50% - 40px)/51% 80px repeat-y,
-    radial-gradient(23.32px at calc(100% + 12.00px) 50%, #0000 99%, #000 101%) calc(100% - 20px) 50%/calc(51% - 20px) 80px repeat-y;
-  -webkit-mask: var(--mask);
-  mask: var(--mask);
-}
-
-/* .ame-page-deco2 {
-  position: absolute;
-  top: 351vh;
-  right:0;
-  width:50%;
-  height: 100%;
-  background-color: #000000;
-  transform: rotateX(135deg);
-  transform: rotateZ(135deg);
-  clip-path: polygon(100% 0, 0 0, 0 100%);
-
-  --mask:
-    radial-gradient(23.32px at 32.00px 50%, #000 99%, #0000 101%) 0 calc(50% - 40px)/51% 80px repeat-y,
-    radial-gradient(23.32px at -12px 50%, #0000 99%, #000 101%) 20px 50%/calc(51% - 20px) 80px repeat-y,
-    radial-gradient(23.32px at calc(100% - 32.00px) 50%, #000 99%, #0000 101%) 100% calc(50% - 40px)/51% 80px repeat-y,
-    radial-gradient(23.32px at calc(100% + 12.00px) 50%, #0000 99%, #000 101%) calc(100% - 20px) 50%/calc(51% - 20px) 80px repeat-y;
-  -webkit-mask: var(--mask);
-  mask: var(--mask);
-} */
 
 .timeline-items {
   max-width: 1000px;
@@ -102,7 +62,7 @@
 
 /* ------------------------------------------ */
 /* ame */
-.ame-title {
+.ina-title {
   color: #000000;
   position: relative;
   font-size: 3.2em;
@@ -111,46 +71,46 @@
   font-family: 'Averia Serif Libre', cursive;
 }
 
-.ame-img {
-  width: 15em;
-  height: 16em;
+.ina-img {
+  width: 16em;
+  height: 17em;
   border-radius: 50%;
   background-color: transparent;
   position: absolute;
-  margin-top: 3em;
+  margin-top: 0em;
 }
 
-.ame-self-intro {
+.ina-self-intro {
   font-size: 3em;
   color: rgb(0, 0, 0);
   left: 43%;
-  top: 10%;
+  top: -50%;
   position: absolute;
   font-family: 'Averia Serif Libre', cursive;
 }
 
-.ame-self-intro-content {
+.ina-self-intro-content {
   height: 300px;
   color: rgb(0, 0, 0);
   font-size: 1.5em;
   max-width: 590px;
   left: 35%;
-  top: 135%;
+  top: 90%;
   position: absolute;
   font-family: 'Averia Serif Libre', cursive;
 }
 
-.ame-link {
+.ina-link {
   font-size: 1.5em;
   left: 40%;
-  top: 250%;
+  top: 300%;
   position: relative;
   list-style-type: none;
   display: flex;
 }
 
 /* Main Styles */
-.ame-twitter-button {
+.ina-twitter-button {
   bottom: -10rem;
   left: 20rem;
   background-color: #a4d5ff;
@@ -171,14 +131,14 @@
   text-align: center;
 }
 
-.ame-twitter-button span,
-.ame-twitter-button svg {
+.ina-twitter-button span,
+.ina-twitter-button svg {
 
   z-index: 2;
   margin: 10px;
 }
 
-.ame-twitter-button::before {
+.ina-twitter-button::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -196,17 +156,17 @@
   z-index: 1;
 }
 
-.ame-twitter-button:hover {
+.ina-twitter-button:hover {
   color: #fff;
   border: 1px solid rgb(186, 222, 255);
 }
 
-.ame-twitter-button:hover::before {
+.ina-twitter-button:hover::before {
   box-shadow: inset 0 0 0 10em rgb(40, 144, 241);
 }
 
 
-.ame-youtube-button {
+.ina-youtube-button {
   bottom: -10rem;
   left: 5rem;
   background-color: #f5a6b5;
@@ -227,14 +187,14 @@
   text-align: center;
 }
 
-.ame-youtube-button span,
-.ame-youtube-button svg {
+.ina-youtube-button span,
+.ina-youtube-button svg {
 
   z-index: 2;
   margin: 10px;
 }
 
-.ame-youtube-button::before {
+.ina-youtube-button::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -252,12 +212,12 @@
   z-index: 1;
 }
 
-.ame-youtube-button:hover {
+.ina-youtube-button:hover {
   color: #fff;
   border: 1px solid rgb(186, 222, 255);
 }
 
-.ame-youtube-button:hover::before {
+.ina-youtube-button:hover::before {
   box-shadow: inset 0 0 0 10em rgb(255, 0, 0);
 }
 
@@ -278,13 +238,13 @@
   }
 }
 
-.ame-info-page {
+.ina-info-page {
   height: 100vh;
   background-color: #474747;
   overflow: hidden;
 }
 
-.ame-info {
+.ina-info {
   position: relative;
   color: rgb(255, 255, 255);
   text-align: center;
@@ -293,7 +253,7 @@
   animation: fadeInLeft 1s ease-out;
 }
 
-.ame-info p {
+.ina-info p {
   font-family: 'Kaushan Script', cursive;
   font-size: 2em;
   line-height: 2.5em;
@@ -302,14 +262,14 @@
   animation: fadeInLeft 1.2s ease-out;
 }
 
-.ame-info-title {
+.ina-info-title {
   font-size: 3em;
   font-family: 'Courgette', cursive;
   margin-top: 1em;
   margin-right: 12em;
 }
 
-.ame-property-frame {
+.ina-property-frame {
   background-color: rgb(40, 36, 36);
   width: 30%;
   border-radius: 10px;
@@ -332,25 +292,25 @@
   box-shadow: #fafafa 0px 0px 10px 0px;
 }
 
-.ame-selfie {
+.ina-selfie {
   position: absolute;
-  top: 10%;
+  top: 5%;
   left: 50%;
-  width: 25em;
-  height: 31em;
+  width: 29em;
+  height: 33em;
 
   animation: fadeInLeft 2s ease-out;
 }
 
 /* ----------------------------- */
 /* ame video page */
-.ame-video-page {
+.ina-video-page {
   height: 100vh;
   background-color: #474747;
   overflow: hidden;
 }
 
-.ame-video-page-title {
+.ina-video-page-title {
   position: relative;
   background-color: red;
   width: 75%;
@@ -365,7 +325,7 @@
   animation: fadeInLeft 1s ease-out;
 }
 
-.ame-video-page-title h2 {
+.ina-video-page-title h2 {
   font-size: 3.8em;
   color: white;
   margin-left: 2em;
@@ -376,19 +336,19 @@
   animation: fadeInLeft ease-out 3s;
 }
 
-.ame-video-container {
+.ina-video-container {
   width: 100%;
   /* height: 50%; */
 }
 
 
-.ame-video-list {
+.ina-video-list {
   list-style: none;
   display: flex;
   margin-left: 3em;
 }
 
-.ame-video {
+.ina-video {
   background: linear-gradient(135deg, #ff2929, #8cf9b2) repeat center center;
   width: 20%;
   border-radius: 20px;
@@ -396,14 +356,14 @@
   margin-top: 5em;
 }
 
-.ame-video:hover {
+.ina-video:hover {
   transform: scale3d(1.02, 1.02, 1.02);
   transition: all 0.5s ease-in-out;
 }
 
 /* ---- */
 /* graphics */
-.ame-roast {
+.ina-roast {
   width: 75%;
   height: 7.4em;
   margin-top: 1.5em;
@@ -430,12 +390,12 @@
 
 /* ------- */
 
-.ame-video-link {
+.ina-video-link {
   text-decoration: none;
   color: white;
 }
 
-.ame-video-label {
+.ina-video-label {
   background-color: rgba(255, 255, 255, 0.767);
   color: black;
   border: 1.3px solid black;
@@ -447,7 +407,7 @@
   font-size: 1em;
 }
 
-.ame-video-content {
+.ina-video-content {
   margin-top: 0.7em;
   margin-bottom: 3.5em;
   margin-left: 1em;

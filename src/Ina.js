@@ -1,17 +1,15 @@
 import React, { useState, useEffect } from "react";
-import "./css/Ame.css";
-import Amelia from "./img/Ame/Ame-img.png";
-import ame from "./img/Ame/Ame.png";
-import "./css/Gura.css"
-import Roast from "./img/Ame/roast.png";
-import smol_amelia from "./img/Ame/smol-ame.png";
-import muscle_ame from "./img/Ame/muscle-ame.jpg";
+import "./css/Ina.css";
+import ina_title from "./img/Ina/ina-title.png";
+import ina from "./img/Ina/Ina.png";
 
-function Ame() {
+
+
+function Ina() {
 
     const [text, setText] = useState("");
     const [fullText, setFullText] = useState(
-        "Amelia heard strange rumors online surrounding hololive: talking foxes, magical squirrels, superhuman dogs, and more. Soon after beginning her investigation on hololive, and just out of interest, she decided to become an idol herself! She loves to pass her time training her reflexes with FPS games, and challenging herself with puzzle games. It\"s elementary, right ?"
+        "Despite her looks, Ina'nis is actually a priestess of the Ancient Ones. One day, she picked up a strange book and then started to gain the power of controlling tentacles. To her, tentacles are just a part in her ordinary life; it has never been a big deal for her. However, her girly mind does want to get them dressed up and stay pretty.After gaining power, she started hearing Ancient Whispers and Revelations. Hence, she began her VTuber activities to deliver random sanity checks on humanity, as an ordinary girl."
     );
     const [index, setIndex] = useState(0);
     useEffect(() => {
@@ -24,9 +22,7 @@ function Ame() {
     }, [index]);
     return (
         <div>
-            <section className="ame-timeline-section" id="section2">
-                <div className="ame-page-deco1"></div>
-                <div className="ame-page-deco2"></div>
+            <section className="ina-timeline-section" id="section3">
                 {/* <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="wave"
@@ -41,19 +37,19 @@ function Ame() {
                 <div className="timeline-items">
                     <div className="timeline-item">
                         <div>
-                            <h1 className="ame-title">Waston Amelia</h1>
-                            <img src={Amelia} alt="ame" className="ame-img" />
+                            <h1 className="ina-title">Ninomae Ina'nis</h1>
+                            <img src={ina_title} alt="ina" className="ina-img" />
                         </div>
 
-                        <h1 className="ame-self-intro">Self-introduction</h1>
-                        <p className="ame-self-intro-content">
+                        <h1 className="ina-self-intro">Self-introduction</h1>
+                        <p className="ina-self-intro-content">
                             {text}
                         </p>
 
-                        <ul className="ame-link">
-                            <li className="ame-youtube">
-                                <a href="https://www.youtube.com/@WatsonAmelia">
-                                    <button className="ame-youtube-button">
+                        <ul className="ina-link">
+                            <li className="ina-youtube">
+                                <a href="https://www.youtube.com/@NinomaeInanis">
+                                    <button className="ina-youtube-button">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             width="18"
@@ -70,9 +66,9 @@ function Ame() {
                                     </button>
                                 </a>
                             </li>
-                            <li className="ame-twitter">
-                                <a href="https://twitter.com/watsonameliaEN">
-                                    <button className="ame-twitter-button">
+                            <li className="ina-twitter">
+                                <a href="https://twitter.com/ninomaeinanis">
+                                    <button className="ina-twitter-button">
                                         <svg
                                             viewBox="0 0 16 16"
                                             className="bi bi-twitter"
@@ -93,66 +89,66 @@ function Ame() {
             </section>
 
             {/* second page */}
-            <section className="ame-info-page" id="info-page">
-                <div className="ame-info" id="info">
-                    <h2 className="ame-info-title">Personal Profile</h2>
+            <section className="ina-info-page" id="info-page">
+                <div className="ina-info" id="info">
+                    <h2 className="ina-info-title">Personal Profile</h2>
                     <div className="layer"></div>
-                    <div className="ame-property-frame animate__animated animate__fadeIn">
-                        <p>Name: Waston Amelia</p>
-                        <p>Height: 150 cm</p>
+                    <div className="ina-property-frame animate__animated animate__fadeIn">
+                        <p>Name: Ninomae Ina'nis</p>
+                        <p>Height: 157 cm</p>
                         <p>Age: unknown</p>
-                        <p>Constellation: Capricorn</p>
+                        <p>Constellation: Taurus</p>
                         <p>Debut time: 2020/9/13</p>
                     </div>
-                    <img src={ame} className="ame-selfie" alt="ame-selfie" />
+                    <img src={ina} className="ina-selfie" alt="ina-selfie" />
                 </div>
             </section >
 
             {/* third page */}
-            < section className="ame-video-page" >
-                <header className="ame-video-page-title">
+            < section className="ina-video-page" >
+                <header className="ina-video-page-title">
                     <h2>Videos</h2>
                 </header>
-                <div className="ame-video-container">
-                    <ul className="ame-video-list">
-                        <li className="ame-video">
+                <div className="ina-video-container">
+                    <ul className="ina-video-list">
+                        <li className="ina-video">
                             <a
                                 href="https://youtu.be/LceHCTa6UyM"
-                                className="ame-video-link"
+                                className="ina-video-link"
                             >
                                 <figure>
-                                    <img src={Roast} className="ame-roast" alt="ame-video" />
+                                    {/* <img src={Roast} className="ina-roast" alt="ina-video" /> */}
                                 </figure>
-                                <p className="ame-video-label">Clip</p>
-                                <div className="ame-video-content">
+                                <p className="ina-video-label">Clip</p>
+                                <div className="ina-video-content">
                                     <p>Roasting your MOM!!!</p>
                                 </div>
                             </a>
                         </li>
-                        <li className="ame-video">
+                        <li className="ina-video">
                             <a
                                 href="https://youtu.be/GL6ghyVWJJ4"
-                                className="ame-video-link"
+                                className="ina-video-link"
                             >
                                 <figure>
-                                    <img src={smol_amelia} className="smol-ame" alt="ame-video" />
+                                    {/* <img src={smol_amelia} className="smol-ame" alt="ina-video" /> */}
                                 </figure>
-                                <p className="ame-video-label">Meme</p>
-                                <div className="ame-video-content">
+                                <p className="ina-video-label">Meme</p>
+                                <div className="ina-video-content">
                                     <p>Smol Ame dancing~</p>
                                 </div>
                             </a>
                         </li>
-                        <li className="ame-video">
+                        <li className="ina-video">
                             <a
                                 href="https://youtu.be/dtpuRVuYC_Q"
-                                className="ame-video-link"
+                                className="ina-video-link"
                             >
                                 <figure>
-                                    <img src={muscle_ame} className="muscle-ame" alt="ame-video" />
+                                    {/* <img src={muscle_ame} className="muscle-ame" alt="ina-video" /> */}
                                 </figure>
-                                <p className="ame-video-label">Song</p>
-                                <div className="ame-video-content">
+                                <p className="ina-video-label">Song</p>
+                                <div className="ina-video-content">
                                     <p>Good at singing, cover songs are also classic</p>
                                 </div>
                             </a>
@@ -164,4 +160,4 @@ function Ame() {
     )
 }
 
-export default Ame;
+export default Ina;

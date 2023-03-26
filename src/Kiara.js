@@ -1,17 +1,14 @@
 import React, { useState, useEffect } from "react";
-import "./css/Ame.css";
-import Amelia from "./img/Ame/Ame-img.png";
-import ame from "./img/Ame/Ame.png";
-import "./css/Gura.css"
-import Roast from "./img/Ame/roast.png";
-import smol_amelia from "./img/Ame/smol-ame.png";
-import muscle_ame from "./img/Ame/muscle-ame.jpg";
+import "./css/Kiara.css";
+import kiara_title from "./img/Kiara/kiara-title.png";
+import kiara from "./img/Kiara/Kiara.png";
 
-function Ame() {
+
+function Kiara() {
 
     const [text, setText] = useState("");
     const [fullText, setFullText] = useState(
-        "Amelia heard strange rumors online surrounding hololive: talking foxes, magical squirrels, superhuman dogs, and more. Soon after beginning her investigation on hololive, and just out of interest, she decided to become an idol herself! She loves to pass her time training her reflexes with FPS games, and challenging herself with puzzle games. It\"s elementary, right ?"
+        "An idol whose dream is to become the owner of a fast food chain. Kiara is a phoenix, not a chicken or turkey. (Very important)She burns brightly, working herself to the bone since she'll just be reborn from her ashes anyway."
     );
     const [index, setIndex] = useState(0);
     useEffect(() => {
@@ -24,9 +21,7 @@ function Ame() {
     }, [index]);
     return (
         <div>
-            <section className="ame-timeline-section" id="section2">
-                <div className="ame-page-deco1"></div>
-                <div className="ame-page-deco2"></div>
+            <section className="kiara-timeline-section" id="section5">
                 {/* <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="wave"
@@ -41,19 +36,19 @@ function Ame() {
                 <div className="timeline-items">
                     <div className="timeline-item">
                         <div>
-                            <h1 className="ame-title">Waston Amelia</h1>
-                            <img src={Amelia} alt="ame" className="ame-img" />
+                            <h1 className="kiara-title">Takanashi Kiara</h1>
+                            <img src={kiara_title} alt="kiara" className="kiara-img" />
                         </div>
 
-                        <h1 className="ame-self-intro">Self-introduction</h1>
-                        <p className="ame-self-intro-content">
+                        <h1 className="kiara-self-intro">Self-introduction</h1>
+                        <p className="kiara-self-intro-content">
                             {text}
                         </p>
 
-                        <ul className="ame-link">
-                            <li className="ame-youtube">
-                                <a href="https://www.youtube.com/@WatsonAmelia">
-                                    <button className="ame-youtube-button">
+                        <ul className="kiara-link">
+                            <li className="kiara-youtube">
+                                <a href="https://www.youtube.com/@TakanashiKiara">
+                                    <button className="kiara-youtube-button">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             width="18"
@@ -70,9 +65,9 @@ function Ame() {
                                     </button>
                                 </a>
                             </li>
-                            <li className="ame-twitter">
-                                <a href="https://twitter.com/watsonameliaEN">
-                                    <button className="ame-twitter-button">
+                            <li className="kiara-twitter">
+                                <a href="https://twitter.com/takanashikiara">
+                                    <button className="kiara-twitter-button">
                                         <svg
                                             viewBox="0 0 16 16"
                                             className="bi bi-twitter"
@@ -93,66 +88,66 @@ function Ame() {
             </section>
 
             {/* second page */}
-            <section className="ame-info-page" id="info-page">
-                <div className="ame-info" id="info">
-                    <h2 className="ame-info-title">Personal Profile</h2>
+            <section className="kiara-info-page" id="info-page">
+                <div className="kiara-info" id="info">
+                    <h2 className="kiara-info-title">Personal Profile</h2>
                     <div className="layer"></div>
-                    <div className="ame-property-frame animate__animated animate__fadeIn">
-                        <p>Name: Waston Amelia</p>
-                        <p>Height: 150 cm</p>
+                    <div className="kiara-property-frame animate__animated animate__fadeIn">
+                        <p>Name: Takanashi Kiara</p>
+                        <p>Height: 165 cm</p>
                         <p>Age: unknown</p>
-                        <p>Constellation: Capricorn</p>
-                        <p>Debut time: 2020/9/13</p>
+                        <p>Constellation: Cancer</p>
+                        <p>Debut time: 2020/9/12</p>
                     </div>
-                    <img src={ame} className="ame-selfie" alt="ame-selfie" />
+                    <img src={kiara} className="kiara-selfie" alt="kiara-selfie" />
                 </div>
             </section >
 
             {/* third page */}
-            < section className="ame-video-page" >
-                <header className="ame-video-page-title">
+            < section className="kiara-video-page" >
+                <header className="kiara-video-page-title">
                     <h2>Videos</h2>
                 </header>
-                <div className="ame-video-container">
-                    <ul className="ame-video-list">
-                        <li className="ame-video">
+                <div className="kiara-video-container">
+                    <ul className="kiara-video-list">
+                        <li className="kiara-video">
                             <a
                                 href="https://youtu.be/LceHCTa6UyM"
-                                className="ame-video-link"
+                                className="kiara-video-link"
                             >
                                 <figure>
-                                    <img src={Roast} className="ame-roast" alt="ame-video" />
+                                    {/* <img src={Roast} className="kiara-roast" alt="kiara-video" /> */}
                                 </figure>
-                                <p className="ame-video-label">Clip</p>
-                                <div className="ame-video-content">
+                                <p className="kiara-video-label">Clip</p>
+                                <div className="kiara-video-content">
                                     <p>Roasting your MOM!!!</p>
                                 </div>
                             </a>
                         </li>
-                        <li className="ame-video">
+                        <li className="kiara-video">
                             <a
                                 href="https://youtu.be/GL6ghyVWJJ4"
-                                className="ame-video-link"
+                                className="kiara-video-link"
                             >
                                 <figure>
-                                    <img src={smol_amelia} className="smol-ame" alt="ame-video" />
+                                    {/* <img src={smol_amelia} className="smol-ame" alt="kiara-video" /> */}
                                 </figure>
-                                <p className="ame-video-label">Meme</p>
-                                <div className="ame-video-content">
+                                <p className="kiara-video-label">Meme</p>
+                                <div className="kiara-video-content">
                                     <p>Smol Ame dancing~</p>
                                 </div>
                             </a>
                         </li>
-                        <li className="ame-video">
+                        <li className="kiara-video">
                             <a
                                 href="https://youtu.be/dtpuRVuYC_Q"
-                                className="ame-video-link"
+                                className="kiara-video-link"
                             >
                                 <figure>
-                                    <img src={muscle_ame} className="muscle-ame" alt="ame-video" />
+                                    {/* <img src={muscle_ame} className="muscle-ame" alt="kiara-video" /> */}
                                 </figure>
-                                <p className="ame-video-label">Song</p>
-                                <div className="ame-video-content">
+                                <p className="kiara-video-label">Song</p>
+                                <div className="kiara-video-content">
                                     <p>Good at singing, cover songs are also classic</p>
                                 </div>
                             </a>
@@ -164,4 +159,4 @@ function Ame() {
     )
 }
 
-export default Ame;
+export default Kiara;
