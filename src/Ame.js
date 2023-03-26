@@ -3,6 +3,8 @@ import "./css/Ame.css";
 import Amelia from "./img/Ame/Ame-img.png";
 import ame from "./img/Ame/Ame.png";
 import "./css/Gura.css"
+import Roast from "./img/Ame/roast.png";
+import smol_amelia from "./img/Ame/smol-ame.png";
 
 function Ame() {
 
@@ -114,29 +116,29 @@ function Ame() {
                     <ul className="ame-video-list">
                         <li className="ame-video">
                             <a
-                                href="https://www.youtube.com/watch?v=r06UeXyiTEg&ab_channel=KazumaSensei"
+                                href="https://youtu.be/LceHCTa6UyM"
                                 className="ame-video-link"
                             >
                                 <figure>
-                                    {/* <img src={A} className="ame-A" alt="ame-video" /> */}
+                                    <img src={Roast} className="ame-roast" alt="ame-video" />
                                 </figure>
-                                <p className="ame-video-label">Meme</p>
+                                <p className="ame-video-label">Clip</p>
                                 <div className="ame-video-content">
-                                    <p>"A"</p>
+                                    <p>Roasting your MOM!!!</p>
                                 </div>
                             </a>
                         </li>
                         <li className="ame-video">
                             <a
-                                href="https://www.youtube.com/watch?v=BBDcKfmU1qc&ab_channel=%E7%83%A4%E9%AF%8Amansharkman"
+                                href="https://youtu.be/GL6ghyVWJJ4"
                                 className="ame-video-link"
                             >
                                 <figure>
-                                    {/* <img src={Math} className="ame-math" alt="ame-video" /> */}
+                                    <img src={smol_amelia} className="smol-ame" alt="ame-video" />
                                 </figure>
-                                <p className="ame-video-label">Clip</p>
+                                <p className="ame-video-label">Meme</p>
                                 <div className="ame-video-content">
-                                    <p>Quite bad at math</p>
+                                    <p>Smol Ame dancing~</p>
                                 </div>
                             </a>
                         </li>
