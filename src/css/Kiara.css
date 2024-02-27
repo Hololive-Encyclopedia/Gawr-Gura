@@ -363,25 +363,25 @@
 
 /* ---- */
 /* graphics */
-.kiara-roast {
-  width: 75%;
+.kiara_gotrecognized {
+  width: 60%;
   height: 7.4em;
   margin-top: 1.5em;
-  margin-left: 1.5em;
+  margin-left: 2.5em;
   /* margin-left: 0em; */
   border-radius: 15px;
 }
 
-.smol-ame {
-  width: 80%;
+.kiara_NOGOD {
+  width: 70%;
   margin-top: 1.5em;
-  margin-left: 1em;
+  margin-left: 2em;
   border-radius: 15px;
   height: 7.4em;
 }
 
-.muscle-ame {
-  width: 60%;
+.kiara_DOU {
+  width: 70%;
   margin-top: 1.5em;
   margin-left: 2em;
   border-radius: 15px;

@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import "./css/Calli.css";
 import calli_title from "./img/Calli/calli-title.png";
 import calli from "./img/Calli/calliope.png";
+import calli_endofalive from "./img/Calli/calli-endofalive.png";
+import calli_confused from "./img/Calli/calli-confused.png";
+import calli_eyetracking from "./img/Calli/calli-eyetracking.png";
 
 
 function Calli() {
@@ -112,43 +115,43 @@ function Calli() {
                     <ul className="calli-video-list">
                         <li className="calli-video">
                             <a
-                                href="https://youtu.be/LceHCTa6UyM"
+                                href="https://youtu.be/XkOiKccMDvE?si=NKe8TtdZbx28tNYH"
                                 className="calli-video-link"
                             >
                                 <figure>
-                                    {/* <img src={Roast} className="calli-roast" alt="calli-video" /> */}
+                                    <img src={calli_confused} className="calli-confused" alt="calli-video" />
                                 </figure>
                                 <p className="calli-video-label">Clip</p>
                                 <div className="calli-video-content">
-                                    <p>Roasting your MOM!!!</p>
+                                    <p>Confused Calli~</p>
                                 </div>
                             </a>
                         </li>
                         <li className="calli-video">
                             <a
-                                href="https://youtu.be/GL6ghyVWJJ4"
+                                href="https://youtu.be/bNyyI_WhZ9o?si=amwL81CVWJhjtKzP"
                                 className="calli-video-link"
                             >
                                 <figure>
-                                    {/* <img src={smol_amelia} className="smol-ame" alt="calli-video" /> */}
+                                    <img src={calli_eyetracking} className="calli-eyetracking" alt="calli-video" />
                                 </figure>
                                 <p className="calli-video-label">Meme</p>
                                 <div className="calli-video-content">
-                                    <p>Smol Ame dancing~</p>
+                                    <p>Insane eye tracking</p>
                                 </div>
                             </a>
                         </li>
                         <li className="calli-video">
                             <a
-                                href="https://youtu.be/dtpuRVuYC_Q"
+                                href="https://youtu.be/BXB26PzV31k?si=fyHfvPb1VfR0FPSA"
                                 className="calli-video-link"
                             >
                                 <figure>
-                                    {/* <img src={muscle_ame} className="muscle-ame" alt="calli-video" /> */}
+                                    <img src={calli_endofalive} className="calli-endofalive" alt="calli-video" />
                                 </figure>
                                 <p className="calli-video-label">Song</p>
                                 <div className="calli-video-content">
-                                    <p>Good at singing, cover songs are also classic</p>
+                                    <p>Best rapper in Hololive</p>
                                 </div>
                             </a>
                         </li>

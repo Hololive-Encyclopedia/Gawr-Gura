@@ -363,27 +363,27 @@
 
 /* ---- */
 /* graphics */
-.calli-roast {
-  width: 75%;
+.calli-confused {
+  width: 65%;
   height: 7.4em;
   margin-top: 1.5em;
-  margin-left: 1.5em;
+  margin-left: 1.75em;
   /* margin-left: 0em; */
   border-radius: 15px;
 }
 
-.smol-ame {
-  width: 80%;
+.calli-eyetracking {
+  width: 60%;
   margin-top: 1.5em;
-  margin-left: 1em;
+  margin-left: 2em;
   border-radius: 15px;
   height: 7.4em;
 }
 
-.muscle-ame {
-  width: 60%;
+.calli-endofalive {
+  width: 80%;
   margin-top: 1.5em;
-  margin-left: 2em;
+  margin-left: 1.5em;
   border-radius: 15px;
   height: 7.4em;
 }

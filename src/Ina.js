@@ -2,8 +2,9 @@ import React, { useState, useEffect } from "react";
 import "./css/Ina.css";
 import ina_title from "./img/Ina/ina-title.png";
 import ina from "./img/Ina/Ina.png";
-
-
+import ina_tomorrow from "./img/Ina/ina-tomorrow.png";
+import ina_violet from "./img/Ina/ina-violet.png";
+import ina_losttakodachi from "./img/Ina/ina-losttakodachi.png";
 
 function Ina() {
 
@@ -113,39 +114,39 @@ function Ina() {
                     <ul className="ina-video-list">
                         <li className="ina-video">
                             <a
-                                href="https://youtu.be/LceHCTa6UyM"
+                                href="https://youtu.be/hWIlozQygRY?si=_Lwim2KtaejS2Avb"
                                 className="ina-video-link"
                             >
                                 <figure>
-                                    {/* <img src={Roast} className="ina-roast" alt="ina-video" /> */}
+                                    <img src={ina_losttakodachi} className="ina-losttakodachi" alt="ina-video" />
                                 </figure>
                                 <p className="ina-video-label">Clip</p>
                                 <div className="ina-video-content">
-                                    <p>Roasting your MOM!!!</p>
+                                    <p>Takodachi is lost!!!</p>
                                 </div>
                             </a>
                         </li>
                         <li className="ina-video">
                             <a
-                                href="https://youtu.be/GL6ghyVWJJ4"
+                                href="https://youtu.be/sMcfFmR0MmA?si=1fjYYNdxmuHQ3tev"
                                 className="ina-video-link"
                             >
                                 <figure>
-                                    {/* <img src={smol_amelia} className="smol-ame" alt="ina-video" /> */}
+                                    <img src={ina_tomorrow} className="ina-tomorrow" alt="ina-video" />
                                 </figure>
                                 <p className="ina-video-label">Meme</p>
                                 <div className="ina-video-content">
-                                    <p>Smol Ame dancing~</p>
+                                    <p>Tomorrow!!!</p>
                                 </div>
                             </a>
                         </li>
                         <li className="ina-video">
                             <a
-                                href="https://youtu.be/dtpuRVuYC_Q"
+                                href="https://youtu.be/8ZdLXELdF9Q?si=ThQKcV0uCKJysZYs"
                                 className="ina-video-link"
                             >
                                 <figure>
-                                    {/* <img src={muscle_ame} className="muscle-ame" alt="ina-video" /> */}
+                                    <img src={ina_violet} className="ina-violet" alt="ina-video" />
                                 </figure>
                                 <p className="ina-video-label">Song</p>
                                 <div className="ina-video-content">

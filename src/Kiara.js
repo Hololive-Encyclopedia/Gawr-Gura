@@ -2,7 +2,9 @@ import React, { useState, useEffect } from "react";
 import "./css/Kiara.css";
 import kiara_title from "./img/Kiara/kiara-title.png";
 import kiara from "./img/Kiara/Kiara.png";
-
+import kiara_DOU from "./img/Kiara/kiara-DOU.png";
+import kiara_NOGOD from "./img/Kiara/kiara-NOGOD.png";
+import kiara_gotrecognized from "./img/Kiara/kiara-gotrecognized.png";
 
 function Kiara() {
 
@@ -112,43 +114,43 @@ function Kiara() {
                     <ul className="kiara-video-list">
                         <li className="kiara-video">
                             <a
-                                href="https://youtu.be/LceHCTa6UyM"
+                                href="https://youtu.be/kErX4mfYMME?si=l2VIlfY68-Y_lQCY"
                                 className="kiara-video-link"
                             >
                                 <figure>
-                                    {/* <img src={Roast} className="kiara-roast" alt="kiara-video" /> */}
+                                    <img src={kiara_gotrecognized} className="kiara_gotrecognized" alt="kiara-video" />
                                 </figure>
                                 <p className="kiara-video-label">Clip</p>
                                 <div className="kiara-video-content">
-                                    <p>Roasting your MOM!!!</p>
+                                    <p>Got caught by KFP!!!</p>
                                 </div>
                             </a>
                         </li>
                         <li className="kiara-video">
                             <a
-                                href="https://youtu.be/GL6ghyVWJJ4"
+                                href="https://youtu.be/El0KmtFyCLg?si=9baaY5OAA6qM6JhZ"
                                 className="kiara-video-link"
                             >
                                 <figure>
-                                    {/* <img src={smol_amelia} className="smol-ame" alt="kiara-video" /> */}
+                                    <img src={kiara_NOGOD} className="kiara_NOGOD" alt="kiara-video" />
                                 </figure>
                                 <p className="kiara-video-label">Meme</p>
                                 <div className="kiara-video-content">
-                                    <p>Smol Ame dancing~</p>
+                                    <p>NO GOD!!!</p>
                                 </div>
                             </a>
                         </li>
                         <li className="kiara-video">
                             <a
-                                href="https://youtu.be/dtpuRVuYC_Q"
+                                href="https://youtu.be/QI96hnhcr2E?si=tPpmPXCRPYfH8ZGq"
                                 className="kiara-video-link"
                             >
                                 <figure>
-                                    {/* <img src={muscle_ame} className="muscle-ame" alt="kiara-video" /> */}
+                                    <img src={kiara_DOU} className="kiara_DOU" alt="kiara-video" />
                                 </figure>
                                 <p className="kiara-video-label">Song</p>
                                 <div className="kiara-video-content">
-                                    <p>Good at singing, cover songs are also classic</p>
+                                    <p>Special, impressive vocal</p>
                                 </div>
                             </a>
                         </li>
